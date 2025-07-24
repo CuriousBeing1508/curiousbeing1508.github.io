@@ -29,10 +29,10 @@ external_level = "warn"
 
 # Social links
 socials = [
-    { name = "GitHub", url = "https://github.com/algomaster99", icon = "github" },
-    { name = "Email", url = "mailto:amansha@kth.se", icon = "email"},
-    { name = "LinkedIn", url = "https://www.linkedin.com/in/aman-sharma606/", icon = "linkedin" },
-    { name = "Google Scholar", url = "https://scholar.google.com/citations?user=uCmqTQgAAAAJ&hl=en", icon="google-scholar" }
+    { name = "GitHub", url = "https://github.com/CuriousBeing1508", icon = "github" },
+    { name = "Email", url = "rachna.raj@mail.concordia.ca", icon = "email"},
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/rachna-raj/", icon = "linkedin" },
+    { name = "Google Scholar", url = "hhttps://scholar.google.ca/citations?user=FcwXFWEAAAAJ&hl=en", icon="google-scholar" }
 ]
 
 menu = [

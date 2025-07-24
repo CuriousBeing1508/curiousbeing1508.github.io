@@ -3,8 +3,8 @@ template = "index.html"
 
 [extra]
     [extra.desc]
-    title = "Hello! I am Rachna Raj"
-    img = "https://avatars.githubusercontent.com/u/35191225?v=4"
+    title = "Hey! I am Rachna Raj"
+    img = "me.jpeg"
     resume = "resume.pdf"
     cv = "cv.pdf"
     quote = "I love to learn and keep doing and solve some of the improtant problems, that's why I am in research!"

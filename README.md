@@ -1,5 +1,5 @@
 
-# algomaster99.github.io
+# https://github.com/CuriousBeing1508
 
 > A personal website of Rachna Raj.
 
