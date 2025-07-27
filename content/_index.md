@@ -1,5 +1,5 @@
 +++
-template = "index.html"
+title = "Home"
 
 [extra]
     [extra.desc]
