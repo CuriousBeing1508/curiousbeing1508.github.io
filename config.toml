@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://github.com/CuriousBeing1508/rachnaraj.github.io"
+base_url = "https://curiousbeing1508.github.io/"
 
 output_dir = "docs"
 
