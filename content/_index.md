@@ -7,7 +7,7 @@ title = "Home"
     img = "rachna.jpeg"
     resume = "resume.pdf"
     cv = "cv.pdf"
-    quote = "I love to learn and keep doing and solve some of the improtant problems, that's why I am in research!"
+    quote = "I love to learn and keep doing and solve some of the important problems, that's why I am in research!"
 +++
 
 I am a PhD student at the [REALISE Lab-Concordia University](https://realiselab.github.io/teamInfo/rachna).
