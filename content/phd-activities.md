@@ -5,35 +5,35 @@ template = "simple-markdown.html"
 
 <br/>
 
-## Research Project Supervision
+## 🧑‍🏫 Teaching Assistant
 
-- [*Can ChatGPT Migrate my Code?*](https://realiselab.github.io/blog/yasmine-poster), [Yasmine Drissi](https://realiselab.github.io/teamInfo/yasmine), 2024
+- **End-to-End Designing of AI-Based Software Systems**  
+  *Concordia University — Fall 2024*  
+  Delivered tutorials to Ericsson professionals covering ML model development, lifecycle management (MLflow), unit testing (pytest), and deployment practices.
 
-## Academic Services
+- **Generative AI for Software Engineering**  
+  *Concordia University — Winter 2024*  
+  Evaluated critiques and summaries of research papers on Generative AI applications in software engineering.
 
-- Co-reviewed manuscript for [ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)](https://scored.dev/)
-- Co-reviewed manuscript for [IEEE Software](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=52)
-- Co-reviewed manuscript for [USENIX Security](https://www.usenix.org/conference/usenixsecurity25)
-- Co-reviewed manuscript for [ICSE'2025 Demos track](https://conf.researchr.org/track/icse-2025/icse-2025-demonstrations)
+## 🧪 Research Assistant
 
-## Teaching Assistant
+- **REALISE Lab** — *2024–Present*  
+  Research on fine-tuning large language models (LLMs) to generate unit tests from real-world code usage, and developing tools to support OSS maintainers with insights into dependent library usage and test coverage.
 
-<!-- - ### [DD2482 Automated Software Testing and DevOps](https://www.kth.se/student/kurser/kurs/DD2482?l=en)
-    - Autumn 2024
+- **EDI Lab** — *Nov 2024 – Apr 2025*  
+  Contributed to a research project on the impact of Generative AI on Equity, Diversity, and Inclusion (EDI) in higher education. Involved in literature review, survey design, and manuscript writing.
 
-- ### [DD2385: Computer Security](https://www.kth.se/student/kurser/kurs/DD2395)
-    - Autumn 2024
-    - Autumn 2023
+## 🧑‍🔬 Research Project Supervision
 
-- ### [DD1385: Software Engineering](https://www.kth.se/student/kurser/kurs/DD1385)
-    - Autumn 2023
+- [*Can ChatGPT Migrate my Code?*](https://realiselab.github.io/blog/yasmine-poster), [Yasmine Drissi](https://realiselab.github.io/teamInfo/yasmine), 2024  
+  Co-supervised an NSERC USRA intern exploring ChatGPT’s utility in library migration and software troubleshooting.
 
-- ### [DD1310: Programming Techniques](https://www.kth.se/student/kurser/kurs/DD1310)
-    - Autumn 2023
+## 🛠️ Academic Services
 
-- ### [DH2642 Interaction Programming and the Dynamic Web](https://www.kth.se/student/kurser/kurs/DH2642)
-    - Autumn 2023 -->
+- **Web Chair**, [BOATSE 2026 (co-located with ICSE)](https://botse.github.io/)  
+- **Artifact Evaluation PC Member**, [CASCON 2025](https://cascon.ca)  
 
-
-## Research Assistant
-<br/>
+**Co-reviewer Roles:**
+- [ICSME 2024](https://conf.researchr.org/home/icsme-2024), [ICSME 2025](https://conf.researchr.org/home/icsme-2025)  
+- [ICSE 2024](https://conf.researchr.org/home/icse-2024), [ICSE 2025 Demos Track](https://conf.researchr.org/track/icse-2025/icse-2025-demonstrations)  
+- [MSR 2025 – Data and Tool Tracks](https://conf.researchr.org/home/msr-2025) 

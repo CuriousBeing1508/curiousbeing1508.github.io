@@ -1,5 +1,5 @@
 +++
-draft = true
+title = "Poster Gallery"
 +++
 <!-- +++
 template = "posters.html"

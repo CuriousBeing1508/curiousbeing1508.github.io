@@ -4,7 +4,7 @@ template = "index.html"
 [extra]
     [extra.desc]
     title = "Hey! I am Rachna Raj"
-    img = "me.jpeg"
+    img = "rachna.jpeg"
     resume = "resume.pdf"
     cv = "cv.pdf"
     quote = "I love to learn and keep doing and solve some of the improtant problems, that's why I am in research!"
@@ -17,6 +17,7 @@ We work on many other areas such as securing software supply (my area), Building
 <!-- <small><i>Hint: What's a crucial component for software supply chain security? (4 letters)</i></small> -->
 
 See my PhD activities [here](/phd-activities/).
+See my Professional experience record [here](/professional-experience)
 
 <br/>
 
