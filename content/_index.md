@@ -16,7 +16,7 @@ We work on many other areas such as securing software supply (my area), Building
 
 <!-- <small><i>Hint: What's a crucial component for software supply chain security? (4 letters)</i></small> -->
 
-See my PhD activities [here](/phd-activities/).
+See my PhD activities [here](/phd-activities/). 
 See my Professional experience record [here](/professional-experience)
 
 <br/>
