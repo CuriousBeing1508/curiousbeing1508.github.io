@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<article class="poster-page">
+    <h2>{{ page.title }}</h2>
+
+    {% if page.extra.comments %}
+    <p class="poster-page-comments">{{ page.extra.comments | safe }}</p>
+    {% endif %}
+
+    {% if page.extra.image %}
+    <div class="poster-page-img-wrap">
+        <a href="{{ page.permalink }}{{ page.extra.image }}" target="_blank" rel="noopener noreferrer" title="Open full size">
+            <img src="{{ page.permalink }}{{ page.extra.image }}" alt="{{ page.title }}" class="poster-page-img">
+        </a>
+        <p class="poster-page-hint">Click image to open full size</p>
+    </div>
+    {% endif %}
+
+    {% if page.content %}
+    <div class="poster-page-body">{{ page.content | safe }}</div>
+    {% endif %}
+
+    <a class="pub-btn pub-btn--back" href="/posters">← All Posters</a>
+</article>
+{% endblock main_content %}

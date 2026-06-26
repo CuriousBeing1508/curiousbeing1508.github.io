@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<h2>Publications</h2>
+
+<div class="pub-list">
+    {% for page in section.pages %}
+    <div class="pub-card">
+        <div class="pub-card-top">
+            <h3 class="pub-title">
+                <a href="{{ page.permalink }}">{{ page.title }}</a>
+            </h3>
+            {% if page.extra.venue %}
+            <span class="pub-badge pub-badge--{{ page.extra.status | default(value='published') }}">
+                {{ page.extra.venue }}
+            </span>
+            {% endif %}
+        </div>
+
+        {% if page.description %}
+        <p class="pub-abstract">{{ page.description }}</p>
+        {% endif %}
+
+        <div class="pub-card-footer">
+            {% if page.extra.pdf %}
+            <a class="pub-btn pub-btn--pdf" href="{{ page.permalink }}{{ page.extra.pdf }}" target="_blank" rel="noopener noreferrer">
+                PDF
+            </a>
+            {% elif page.extra.arxiv %}
+            <a class="pub-btn pub-btn--arxiv" href="{{ page.extra.arxiv }}" target="_blank" rel="noopener noreferrer">
+                arXiv Preprint
+            </a>
+            {% else %}
+            <span class="pub-coming-soon">Pre-print coming soon</span>
+            {% endif %}
+            <a class="pub-btn pub-btn--details" href="{{ page.permalink }}">Details →</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock main_content %}

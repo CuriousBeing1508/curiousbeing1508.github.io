@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<article class="pub-page">
+    <div class="pub-page-header">
+        <h2 class="pub-page-title">{{ page.title }}</h2>
+        {% if page.extra.venue %}
+        <span class="pub-badge pub-badge--{{ page.extra.status | default(value='published') }}">
+            {{ page.extra.venue }}
+        </span>
+        {% endif %}
+    </div>
+
+    <div class="pub-page-body">
+        {% if page.content %}
+        {{ page.content | safe }}
+        {% elif page.description %}
+        <p>{{ page.description }}</p>
+        {% endif %}
+    </div>
+
+    <div class="pub-page-actions">
+        {% if page.extra.pdf %}
+        <a class="pub-btn pub-btn--pdf" href="{{ page.permalink }}{{ page.extra.pdf }}" target="_blank" rel="noopener noreferrer">
+            Download PDF
+        </a>
+        {% elif page.extra.arxiv %}
+        <a class="pub-btn pub-btn--arxiv" href="{{ page.extra.arxiv }}" target="_blank" rel="noopener noreferrer">
+            arXiv Preprint
+        </a>
+        {% else %}
+        <div class="pub-stay-tuned">
+            <span>Stay tuned — pre-print coming soon.</span>
+        </div>
+        {% endif %}
+
+        <a class="pub-btn pub-btn--back" href="/publications">← All Publications</a>
+    </div>
+</article>
+{% endblock main_content %}

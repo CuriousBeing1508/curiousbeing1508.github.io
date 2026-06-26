@@ -5,13 +5,13 @@ template = "simple-markdown.html"
 
 <br/>
 
-# 💼 Professional Experience Record
+# Professional Experience Record
 
 I've worked across enterprise software, industrial automation, and real-world AI applications — contributing to production systems, backend services, and team culture. Here's a closer look at my journey:
 
 ---
 
-## 🏢 IBM India Software Labs  
+## IBM India Software Labs  
 **Software Developer**  
 *March 2022 – July 2023 | Bangalore, India*
 
@@ -23,13 +23,13 @@ I've worked across enterprise software, industrial automation, and real-world AI
 - **Hackathon finalist**: Led a small team in an internal IBM hackathon, building a prototype knowledge-sharing portal recognized for innovation.
 - **Peer appreciation**: Received a heartfelt farewell card with kind notes from teammates, reflecting the positive team relationships I built.
 
-[📄 Farewell card from my IBM team (PDF)](/merativeCard.pdf)  
+[ Farewell card from my IBM team (PDF)](/merativeCard.pdf)  
 <small><i>A card filled with warm wishes from colleagues — one of the best takeaways from my IBM journey.</i></small>
 
 
 ---
 
-## 🏥 Infosys Limited  
+##  Infosys Limited  
 **Senior Systems Engineer**  
 *Dec 2019 – March 2022 | Bangalore, India*
 
@@ -42,7 +42,7 @@ I've worked across enterprise software, industrial automation, and real-world AI
 
 ---
 
-## 🏭 Electrosteel Steels Ltd.  
+## Electrosteel Steels Ltd.  
 **Graduate Engineer Trainee**  
 *June 2019 – Dec 2019 | Bokaro, India*
 

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<h2>Posters</h2>
+
+<div class="poster-gallery">
+    {% for page in section.pages %}
+    <div class="poster-container">
+        <a href="{{ page.permalink }}">
+            {% if page.extra.image %}
+            <img class="poster-thumb" src="{{ page.permalink }}{{ page.extra.image }}" alt="{{ page.title }}" loading="lazy">
+            {% else %}
+            <div class="poster-thumb-placeholder"></div>
+            {% endif %}
+        </a>
+        <span class="poster-caption">{{ page.title }}</span>
+        {% if page.extra.comments %}
+        <span class="poster-comments">{{ page.extra.comments | safe }}</span>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock main_content %}
